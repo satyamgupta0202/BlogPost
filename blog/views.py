@@ -26,4 +26,4 @@ def home(response):
     return render(response ,'blog/home.html',context)
 
 def about(response):
-    return render(response ,'blog/about.html')
+    return render(response ,'blog/about.html',{'title':'about'})
